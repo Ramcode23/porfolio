@@ -1,0 +1,22 @@
+.cicle {
+    left: 15%;
+    min-width: 100px;
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        border-color: coral;
+    }
+    to {
+        border-color: #a756ee;
+        ;
+    }
+}
